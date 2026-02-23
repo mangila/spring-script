@@ -1,0 +1,30 @@
+### POST enquque script
+POST http://localhost:8080/api/v1/script
+content-type: application/json
+
+{
+  "message": "hello there",
+  "number": 1234
+}
+
+### POST enquque script
+POST http://localhost:8080/api/v1/script
+content-type: application/json
+
+{
+  "message": "",
+  "number": 67
+}
+
+### POST enquque script
+POST http://localhost:8080/api/v1/script
+content-type: application/json
+
+{
+  "message": "abc",
+  "number": 0
+}
+
+### GET poll script execution
+GET http://localhost:8080/api/v1/script
+

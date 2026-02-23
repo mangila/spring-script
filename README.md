@@ -2,5 +2,6 @@
 
 Just me playing around with Spring and Groovy.
 
-In the `groovy/Greeting.groovy` change any of the values when the app is running, to see the changes reflected in
-the output.
+Run a spring web service that executes a groovy script.
+
+Groovy script can be changed at runtime and the changes will be reflected in the output.
